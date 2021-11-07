@@ -38,6 +38,7 @@ public class Demo {
 	  driver.get("https://www.youtube.com/");
 	  driver.manage().window().maximize();
 	  PropertyConfigurator.configure("src\\log4j.properties");
+	  System.out.println("Inside before");
 	 logger.info(driver.getTitle());
   }
 
