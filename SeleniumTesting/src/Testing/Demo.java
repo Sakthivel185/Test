@@ -24,6 +24,7 @@ public class Demo {
 	 Logger logger=Logger.getLogger("Demo.class");
 	 
 	//added comments
+	 //commented now Nov 21
   @Test
   public void f() {
 	  WebElement element;
